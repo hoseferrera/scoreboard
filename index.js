@@ -51,6 +51,7 @@ function newGame() {
     homeStoreEl.textContent = homeScore
     guestScore = 0
     guestStoreEl.textContent = guestScore 
+    highlightLeader()
 }
 
 // highlight leader
